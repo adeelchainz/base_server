@@ -20,6 +20,6 @@ module.exports = {
         "revert",
       ],
     ],
-    // "subject-case": [2, "always", "sentence-case"],
+    "subject-case": [2, "always", "sentence-case"],
   },
 };
