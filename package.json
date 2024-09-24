@@ -8,7 +8,7 @@
     "serve": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
-    "commit":"cz"
+    "commit": "cz"
   },
   "author": "",
   "license": "ISC",
@@ -20,13 +20,13 @@
     "commitizen": "^4.3.0",
     "commitlint-config-gitmoji": "^2.3.1",
     "cz-customizable": "^7.2.1",
+    "devmoji": "^2.3.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2"
   },
-
   "config": {
     "commitizen": {
       "path": "cz-customizable"
