@@ -4,7 +4,7 @@ module.exports = {
   // custom devmoji
   devmoji: [
     // use :boom: instead of :sparkles: for the type 'feat'
-    { code: "feat", emoji: "boom" },
+    // { code: "feat", emoji: "boom" },
     // add a custom devmoji
     {
       code: "fail",
