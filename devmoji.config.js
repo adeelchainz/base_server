@@ -17,10 +17,10 @@ module.exports = {
       gitmoji: "art",
     },
     // the emoji from the gitmoji can be overriden as well
-    {
-      code: "config",
-      gitmoji: "wrench",
-      emoji: "gear",
-    },
+    // {
+    //   code: "config",
+    //   gitmoji: "wrench",
+    //   emoji: "gear",
+    // },
   ],
 };
