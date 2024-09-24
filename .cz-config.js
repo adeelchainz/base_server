@@ -33,16 +33,13 @@ module.exports = {
       value: ":green_heart: ci",
       name: "💚 ci:\tAdd or update regards to build process",
     },
+    {
+      value: ":bricks: setup",
+      name: "🧱 setup:\tSource Infrastructure related changes",
+    },
   ],
 
-  scopes: [
-    { name: "ui" },
-    { name: "android" },
-    { name: "ios" },
-    { name: "home" },
-    { name: "planner" },
-    { name: "settings" },
-  ],
+  scopes: [{ name: "codebase" }, { name: "api" }],
 
   scopeOverrides: {
     fix: [
