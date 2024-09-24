@@ -6,7 +6,7 @@ module.exports = {
       2,
       "always",
       [
-        "setup",
+        "config",
         "feat",
         "fix",
         "docs",
