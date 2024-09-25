@@ -26,6 +26,7 @@
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
     "@eslint/js": "^9.11.1",
+    "@types/express": "^4.17.21",
     "@types/node": "^22.6.1",
     "commitlint-config-gitmoji": "^2.3.1",
     "devmoji": "^2.3.0",
@@ -43,6 +44,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dotenv-flow": "^4.1.0"
+    "dotenv-flow": "^4.1.0",
+    "express": "^4.21.0"
   }
 }
