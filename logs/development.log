@@ -1,0 +1,9 @@
+{
+    "level": "INFO",
+    "timestamp": "2024-09-25T18:48:07.646Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
