@@ -6,18 +6,20 @@
     "build": "npx tsc",
     "dev": "nodemon src/index.ts",
     "serve": "node dist/index.js",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "format:check":"prettier . --check",
+    "format:fix":"prettier . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
   "author": "",
   "license": "ISC",
   "description": "",
-  "lint-staged":{
-    "*.ts":[
-      "npm run lint:fix"
-    ]   
+  "lint-staged": {
+    "*.ts": [
+      "npm run lint:fix", "npm run format:fix"
+    ]
   },
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
@@ -33,6 +35,7 @@
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "nodemon": "^3.1.7",
+    "prettier": "3.3.3",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.7.0"
