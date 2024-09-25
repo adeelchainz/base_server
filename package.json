@@ -4,12 +4,12 @@
   "main": "index.js",
   "scripts": {
     "build": "npx tsc",
-    "dev": "nodemon src/index.ts",
-    "serve": "node dist/index.js",
+    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+    "serve": "cross-env NODE_ENV=production node dist/index.js",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
-    "format:check":"prettier . --check",
-    "format:fix":"prettier . --fix",
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky"
   },
@@ -18,7 +18,8 @@
   "description": "",
   "lint-staged": {
     "*.ts": [
-      "npm run lint:fix", "npm run format:fix"
+      "npm run lint:fix",
+      "npm run format:fix"
     ]
   },
   "devDependencies": {
@@ -39,5 +40,9 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.6.2",
     "typescript-eslint": "^8.7.0"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^4.1.0"
   }
 }
