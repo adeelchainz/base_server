@@ -162,3 +162,55 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T09:56:43.567Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T09:56:43.575Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T09:57:36.275Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "57.90 Second",
+                "memoryUsage": {
+                    "heapTotal": "148.57 MB",
+                    "heapUsed": "145.26 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "7502.02 MB",
+                "freeMemory": "533.86 MB"
+            },
+            "timeStamp": 1727344656275
+        }
+    }
+}
