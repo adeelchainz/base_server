@@ -1,0 +1,33 @@
+import app from './app'
+import config from './config/config'
+import logger from './handlers/logger'
+import database from './services/database'
+
+const server = app.listen(config.PORT)
+
+// eslint-disable-next-line @typescript-eslint/no-floating-promises
+;(async () => {
+    try {
+        const connection = await database.connect()
+        logger.info(`Database connection`, {
+            meta: {
+                CONNECTION_NAME: connection.name
+            }
+        })
+
+        logger.info(`Application started`, {
+            meta: {
+                PORT: config.PORT,
+                SERVER_URL: config.SERVER_URL
+            }
+        })
+    } catch (error) {
+        logger.error(`error`, { meta: error })
+
+        server.close((err) => {
+            if (err) logger.error(`error`, { meta: error })
+
+            process.exit(1)
+        })
+    }
+})()
