@@ -214,3 +214,1979 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:34:47.135Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:34:47.149Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:34:47.150Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:07.836Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:10.146Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:11.026Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:11.714Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:12.440Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:13.186Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:13.925Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:14.689Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:15.554Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:16.269Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:17.178Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:18.197Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:18.958Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:19.691Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:20.405Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:21.233Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:39.941Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:40.143Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:44.896Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:44.950Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:48.030Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:48.078Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:48.741Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:48.783Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:49.414Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:49.456Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:50.072Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:50.116Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:50.686Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:50.733Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:51.378Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:51.423Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:52.051Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:52.093Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:52.759Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:52.806Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:53.472Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:53.520Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:54.187Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:54.228Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:54.900Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:54.938Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:55.491Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:55.525Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:55.686Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:55.728Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:55.885Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:55.922Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:56.054Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:56.104Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:56.217Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:56.255Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:56.375Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:56.419Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:35:56.600Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:35:56.640Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:37:07.212Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:37:07.233Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:37:07.234Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:37:10.965Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:46:27.128Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:46:27.143Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:46:27.144Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:47:20.524Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:47:20.535Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:47:20.536Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:48:45.237Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:48:45.246Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:48:45.248Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:17.951Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:17.959Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:17.960Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:24.812Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:25.431Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:49:54.677Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "40.59 Second",
+                "memoryUsage": {
+                    "heapTotal": "150.32 MB",
+                    "heapUsed": "146.50 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "7502.02 MB",
+                "freeMemory": "838.30 MB"
+            },
+            "timeStamp": 1727351394677
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:12.352Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:12.901Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:13.935Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:14.893Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:15.770Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:16.714Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:17.449Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:50:18.253Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:19.096Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:19.949Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:21.000Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:21.964Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:22.909Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:50:23.738Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:28.771Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:28.915Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:35.999Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:36.058Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:36.682Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:36.729Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:37.290Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:37.329Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:37.859Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:37.904Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:38.390Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:38.438Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:39.031Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:39.073Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:39.573Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:39.611Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:40.187Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:40.224Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:51:40.772Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:40.820Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:41.394Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:41.438Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:41.988Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:42.037Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:42.836Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:51:42.881Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:52:22.112Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:52:22.121Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:52:22.122Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:52:23.581Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:52:23.646Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T11:52:24.913Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-26T11:52:24.954Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::ffff:127.0.0.1",
+            "method": "GET",
+            "url": "/favicon.ico"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\serve-static\\index.js:121:7)\n    at SendStream.emit (node:events:518:28)\n    at SendStream.emit (node:domain:488:12)\n    at SendStream.error (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\send\\index.js:270:17)"
+        }
+    }
+}

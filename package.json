@@ -54,6 +54,7 @@
         "express": "^4.21.0",
         "helmet": "^7.1.0",
         "mongoose": "^8.6.3",
+        "rate-limiter-flexible": "^5.0.3",
         "source-map-support": "^0.5.21",
         "ts-migrate-mongoose": "^3.8.4",
         "winston": "^3.14.2",
