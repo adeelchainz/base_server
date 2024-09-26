@@ -44,6 +44,7 @@
     "typescript-eslint": "^8.7.0"
   },
   "dependencies": {
+    "colorette": "^2.0.20",
     "cross-env": "^7.0.3",
     "dotenv-flow": "^4.1.0",
     "express": "^4.21.0",
