@@ -5,6 +5,11 @@ import config from '../config/config'
 import { EApplicationEnvironment } from '../constant/application'
 import path from 'path'
 
+import * as sourceMapSupport from 'source-map-support'
+
+//linking source map
+sourceMapSupport.install()
+
 const logFormat = format.printf((info) => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const { level, message, timestamp, meta = {} } = info
