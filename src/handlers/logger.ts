@@ -8,6 +8,9 @@ import path from 'path'
 import * as sourceMapSupport from 'source-map-support'
 import { blue, green, magenta, red, yellow } from 'colorette'
 
+import 'winston-mongodb'
+import { MongoDBTransportInstance } from 'winston-mongodb'
+
 //linking source map
 sourceMapSupport.install()
 
@@ -88,21 +91,30 @@ const consoleTransport = (): Array<ConsoleTransportInstance> => {
 }
 
 const fileTransport = (): Array<FileTransportInstance> => {
-    if (config.ENV === EApplicationEnvironment.DEVELOPMENT) {
-        return [
-            new transports.File({
-                filename: path.join(__dirname, '../', '../', 'logs', `${config.ENV}.log`),
-                level: 'info',
-                format: format.combine(format.timestamp(), fileFormat)
-            })
-        ]
-    }
-    return []
+    return [
+        new transports.File({
+            filename: path.join(__dirname, '../', '../', 'logs', `${config.ENV}.log`),
+            level: 'info',
+            format: format.combine(format.timestamp(), fileFormat)
+        })
+    ]
+}
+
+const dbTransport = (): Array<MongoDBTransportInstance> => {
+    return [
+        new transports.MongoDB({
+            level: 'info',
+            db: config.DATABASE_URL as string,
+            metaKey: 'meta',
+            expireAfterSeconds: 3600 * 24 * 30,
+            collection: 'logs'
+        })
+    ]
 }
 
 export default createLogger({
     defaultMeta: {
         meta: {}
     },
-    transports: [...fileTransport(), ...consoleTransport()]
+    transports: [...fileTransport(), ...dbTransport(), ...consoleTransport()]
 })
