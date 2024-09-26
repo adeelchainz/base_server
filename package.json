@@ -1,56 +1,59 @@
 {
-  "name": "base_server",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx tsc",
-    "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
-    "serve": "cross-env NODE_ENV=production node dist/index.js",
-    "lint": "eslint",
-    "lint:fix": "eslint --fix",
-    "format:check": "prettier . --check",
-    "format:fix": "prettier . --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "lint-staged": {
-    "*.ts": [
-      "npm run lint:fix",
-      "npm run format:fix"
-    ]
-  },
-  "devDependencies": {
-    "@commitlint/cli": "^19.5.0",
-    "@commitlint/config-conventional": "^19.5.0",
-    "@eslint/js": "^9.11.1",
-    "@types/express": "^4.17.21",
-    "@types/node": "^22.6.1",
-    "@types/source-map-support": "^0.5.10",
-    "commitlint-config-gitmoji": "^2.3.1",
-    "devmoji": "^2.3.0",
-    "eslint": "^9.11.1",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-react": "^7.36.1",
-    "globals": "^15.9.0",
-    "husky": "^9.1.6",
-    "lint-staged": "^15.2.10",
-    "nodemon": "^3.1.7",
-    "prettier": "3.3.3",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.6.2",
-    "typescript-eslint": "^8.7.0"
-  },
-  "dependencies": {
-    "colorette": "^2.0.20",
-    "cross-env": "^7.0.3",
-    "dotenv-flow": "^4.1.0",
-    "express": "^4.21.0",
-    "mongoose": "^8.6.3",
-    "source-map-support": "^0.5.21",
-    "winston": "^3.14.2",
-    "winston-mongodb": "^6.0.0"
-  }
+    "name": "base_server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx tsc",
+        "dev": "cross-env NODE_ENV=development nodemon src/index.ts",
+        "serve": "cross-env NODE_ENV=production node dist/index.js",
+        "lint": "eslint",
+        "lint:fix": "eslint --fix",
+        "format:check": "prettier . --check",
+        "format:fix": "prettier . --fix",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky",
+        "migrate:dev": "cross-env MIGRATE_MODE=development node scripts/migration.js",
+        "migrate:prod": "cross-env MIGRATE_MODE=production node scripts/migration.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "lint-staged": {
+        "*.ts": [
+            "npm run lint:fix",
+            "npm run format:fix"
+        ]
+    },
+    "devDependencies": {
+        "@commitlint/cli": "^19.5.0",
+        "@commitlint/config-conventional": "^19.5.0",
+        "@eslint/js": "^9.11.1",
+        "@types/express": "^4.17.21",
+        "@types/node": "^22.6.1",
+        "@types/source-map-support": "^0.5.10",
+        "commitlint-config-gitmoji": "^2.3.1",
+        "devmoji": "^2.3.0",
+        "eslint": "^9.11.1",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-react": "^7.36.1",
+        "globals": "^15.9.0",
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
+        "nodemon": "^3.1.7",
+        "prettier": "3.3.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.6.2",
+        "typescript-eslint": "^8.7.0"
+    },
+    "dependencies": {
+        "colorette": "^2.0.20",
+        "cross-env": "^7.0.3",
+        "dotenv-flow": "^4.1.0",
+        "express": "^4.21.0",
+        "mongoose": "^8.6.3",
+        "source-map-support": "^0.5.21",
+        "ts-migrate-mongoose": "^3.8.4",
+        "winston": "^3.14.2",
+        "winston-mongodb": "^6.0.0"
+    }
 }
