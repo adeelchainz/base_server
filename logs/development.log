@@ -111,3 +111,20 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T08:51:26.879Z",
+    "message": "Database connection",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T08:51:26.887Z",
+    "message": "Application started",
+    "meta": {
+        "PORT": "3000",
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
