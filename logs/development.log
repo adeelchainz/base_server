@@ -2560,3 +2560,994 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:20:52.713Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:20:52.725Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:20:52.726Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:24:33.762Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T09:27:26.002Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:35:20.367Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:35:20.375Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:35:20.376Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:38:10.922Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:38:10.929Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:38:10.930Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:39:57.123Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:39:57.130Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:39:57.138Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:40:23.039Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:40:23.048Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:40:23.059Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T09:40:31.355Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:22.000Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:22.008Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:22.010Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:53.124Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:53.132Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:45:53.134Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:46:01.620Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:46:01.628Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:46:01.629Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:46:06.078Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:48:08.373Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:48:08.386Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:48:08.387Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:50:22.073Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:50:22.082Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:50:22.083Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:51:15.390Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:51:15.397Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:51:15.399Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:55:20.753Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:55:20.761Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:55:20.763Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:55:24.994Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T09:55:29.452Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:57:57.118Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:57:57.125Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:57:57.126Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T09:58:04.597Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:58:26.383Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:58:26.390Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:58:26.391Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T09:58:26.630Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:59:29.402Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:59:29.409Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T09:59:29.410Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:00:59.186Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:00:59.194Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:00:59.197Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T10:01:04.463Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/user/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:01:21.046Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:01:21.053Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:01:21.054Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:55:38.210Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:55:38.217Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:55:38.219Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T10:55:46.393Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:11.645Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:11.652Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:11.653Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:22.443Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:22.450Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:57:22.451Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T10:57:31.586Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:58:42.849Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:58:42.857Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:58:42.858Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T10:58:43.033Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:59:05.891Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:59:05.898Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T10:59:05.899Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T10:59:11.188Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:00:05.212Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:00:05.220Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:00:05.222Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T11:00:10.387Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:00:24.496Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:00:29.687Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "28.04 Second",
+                "memoryUsage": {
+                    "heapTotal": "154.82 MB",
+                    "heapUsed": "147.95 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "7502.02 MB",
+                "freeMemory": "315.75 MB"
+            },
+            "timeStamp": 1727434829687
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-27T11:00:44.047Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at Immediate.next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Immediate._onImmediate (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15)\n    at processImmediate (node:internal/timers:480:21)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:02:41.069Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:02:41.076Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:02:41.077Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:03:34.748Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:03:34.756Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:03:34.758Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:03:38.044Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:11.117Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:11.125Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:11.126Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:39.530Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:39.538Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:39.539Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:04:50.728Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:06:55.608Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:06:55.616Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:06:55.617Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T11:07:19.497Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}

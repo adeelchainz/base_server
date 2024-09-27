@@ -1,6 +1,6 @@
 import express, { Application } from 'express'
 import path from 'path'
-import router from './APIs/router'
+import router from './APIs'
 import errorHandler from './middlewares/errorHandler'
 import notFound from './handlers/notFound'
 import helmet from 'helmet'
@@ -21,7 +21,8 @@ app.use(express.json())
 app.use(express.static(path.join(__dirname, '../', 'public')))
 
 //Router
-app.use('/v1', router)
+// app.use('/v1', router)
+router(app)
 
 //404 handler
 app.use(notFound)
