@@ -4,13 +4,13 @@ import database from '../services/database'
 
 export async function bootstrap(): Promise<void> {
     try {
-        // Connect to the database (assuming `database` has a `connect` function returning a Promise)
+        // Connect to the database
         const connection = await database.connect()
         logger.info(`Database connection established`, {
             meta: { CONNECTION_NAME: connection.name }
         })
 
-        // Initialize rate limiter (assuming `initRateLimiter` takes a connection object)
+        // Initialize rate limiter
         initRateLimiter(connection)
         logger.info(`Rate limiter initiated`)
     } catch (error) {

@@ -2,27 +2,33 @@ import { NextFunction, Request, Response } from 'express'
 import httpResponse from '../../../handlers/httpResponse'
 import responseMessage from '../../../constant/responseMessage'
 import httpError from '../../../handlers/errorHandler/httpError'
-import health from '../../../utils/health'
+import { IRegister, IRegisterRequest } from './types/authentication.interface'
+import { validateSchema } from '../../../utils/joi-validate'
+import { registerSchema } from './validation/validation.schema'
+import { registrationService } from './authentication.service'
+import { CustomError } from '../../../utils/errors'
 
 export default {
-    register: (request: Request, response: Response, next: NextFunction) => {
+    register: async (request: Request, response: Response, next: NextFunction) => {
         try {
-            // throw new Error('errors')
-            httpResponse(response, request, 201, responseMessage.SUCCESS, null)
-        } catch (error) {
-            httpError(next, error, request, 500)
-        }
-    },
-    health: (request: Request, response: Response, next: NextFunction) => {
-        try {
-            const healthData = {
-                application: health.getApplicationHealth(),
-                system: health.getSystemHealth(),
-                timeStamp: Date.now()
+            const { body } = request as IRegister
+
+            //Payload validation
+            const { error, payload } = validateSchema<IRegisterRequest>(registerSchema, body)
+            if (error) {
+                return httpError(next, error, request, 422)
             }
-            httpResponse(response, request, 200, responseMessage.SUCCESS, healthData)
+
+            const registrationResult = await registrationService(payload)
+            if (registrationResult.success === true) {
+                httpResponse(response, request, 201, responseMessage.auth.USER_REGISTERED, registrationResult)
+            }
         } catch (error) {
-            httpError(next, error, request, 500)
+            if (error instanceof CustomError) {
+                httpError(next, error, request, error.statusCode)
+            } else {
+                httpError(next, error, request, 500)
+            }
         }
     }
 }

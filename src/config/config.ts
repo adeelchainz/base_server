@@ -9,5 +9,10 @@ export default {
     SERVER_URL: process.env.SERVER_URL,
 
     // Database
-    DATABASE_URL: process.env.DATABASE_URL
+    DATABASE_URL: process.env.DATABASE_URL,
+
+    //Email
+    EMAIL_API_KEY: process.env.EMAIL_SERVICE_API_KEY,
+
+    SALT_ROUNDS: process.env.SALT_ROUNDS as string
 }

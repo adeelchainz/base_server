@@ -3551,3 +3551,2105 @@
         "data": null
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:56:45.986Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:56:45.996Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:56:45.998Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:57:49.020Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:58:51.015Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-27T13:59:08.177Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:43:27.953Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:43:27.966Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:43:27.967Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T10:43:37.924Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"name\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:51:02.403Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:51:02.446Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:51:02.449Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:55:45.546Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:55:45.574Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:55:45.576Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:56:30.537Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:56:30.545Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T10:56:30.546Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:02:51.357Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:02:51.386Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:02:51.387Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:03:33.543Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:03:33.562Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:03:33.564Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:04:35.831Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"name\" is not allowed to be empty",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is not allowed to be empty"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:05:26.432Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" length must be at least 8 characters long",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" length must be at least 8 characters long"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:05:39.705Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"password\" with value \"qwertyuuiioooo\" fails to match the required pattern: /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\\W)(?!.* ).{8,16}$/",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"password\" with value \"qwertyuuiioooo\" fails to match the required pattern: /^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*\\W)(?!.* ).{8,16}$/"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:06:18.178Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:25:40)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:06:26.208Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"phoneNumber\" length must be at least 4 characters long",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"phoneNumber\" length must be at least 4 characters long"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:06:35.307Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:07:05.349Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:07:11.605Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:25:40)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:07:34.942Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:25:40)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T11:08:00.510Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:25:40)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:08:09.264Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:08:44.040Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:08:44.064Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:08:44.066Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:11:55.357Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:11:55.382Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T11:11:55.383Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:44:58.057Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:44:58.068Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:44:58.071Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:45:04.167Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T14:45:34.374Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:16:36)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:22)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:45:34.388Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T14:45:36.525Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:16:36)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:22)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:45:36.531Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T14:45:42.357Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:16:36)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:22)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:45:42.370Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:50:45.023Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:50:45.060Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:50:45.063Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T14:50:49.966Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:16:36)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:32)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:50:49.972Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:56:49.823Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:56:49.848Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:56:49.849Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T14:56:56.754Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:18:40)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:32)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T14:56:56.762Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:26:40.881Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:26:40.908Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:26:40.909Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:28:04.825Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:28:04.855Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:28:04.857Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:31.281Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:31.314Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:31.316Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:39.540Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:39.562Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:39.564Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T15:30:45.941Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at Object.register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:17:36)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:22:32)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:30:45.946Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T15:39:37.471Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:28:40)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:39:37.635Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:39:37.640Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:39:37.646Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:42:57.443Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:42:57.458Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:42:57.460Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:44:04.462Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:44:04.497Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:44:04.499Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T15:44:20.149Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at registerService (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:12:15)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:38:55)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T15:45:20.344Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at registerService (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:12:15)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:38:55)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:45:31.670Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "countryCode": "92",
+            "internationalNumber": "+92 333 1234567",
+            "isoCode": "PK",
+            "timezone": [
+                {
+                    "name": "Asia/Karachi",
+                    "countries": [
+                        "PK"
+                    ],
+                    "utcOffset": 300,
+                    "utcOffsetStr": "+05:00",
+                    "dstOffset": 300,
+                    "dstOffsetStr": "+05:00",
+                    "aliasOf": null
+                }
+            ]
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:58:59.619Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:58:59.647Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T15:58:59.648Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:12:07.988Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:12:08.012Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:12:08.013Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:24:43.110Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:24:43.142Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:24:43.143Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:03.052Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:03.081Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:03.084Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:54.481Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:54.505Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:29:54.507Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:33:27.261Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:33:27.288Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:33:27.289Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:36:44.410Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:36:44.435Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:36:44.436Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:38:50.454Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:38:50.481Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:38:50.482Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:39:01.187Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "countryCode": "92",
+            "internationalNumber": "+92 333 1234567",
+            "isoCode": "PK",
+            "timezone": [
+                {
+                    "name": "Asia/Karachi",
+                    "countries": [
+                        "PK"
+                    ],
+                    "utcOffset": 300,
+                    "utcOffsetStr": "+05:00",
+                    "dstOffset": 300,
+                    "dstOffsetStr": "+05:00",
+                    "aliasOf": null
+                }
+            ]
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T16:39:10.842Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at registerService (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:13:15)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:38:55)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:41:08.945Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:41:08.968Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:41:08.971Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:45:14.839Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:45:14.863Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:45:14.864Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:46:37.838Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:46:38.264Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:46:38.266Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T16:46:44.741Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Something went wrong!",
+        "data": null,
+        "trace": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:51:41.854Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:51:41.888Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:51:41.889Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T16:55:03.833Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at registerService (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:13:15)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:38:55)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:56:07.852Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:56:07.882Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T16:56:07.883Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:00:03.530Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:00:03.557Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:00:03.558Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:06:17.954Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:06:17.965Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:06:17.967Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T17:06:32.933Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Invalid phone number",
+        "data": null,
+        "trace": {
+            "error": "Error: Invalid phone number\n    at registerService (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:13:15)\n    at register (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:39:55)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:07:06.778Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:07:06.786Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:07:06.787Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-09-30T17:07:20.627Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "\"name\" length must be at least 2 characters long",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" length must be at least 2 characters long"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:07:40.991Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "countryCode": "92",
+            "internationalNumber": "+92 333 1234567",
+            "isoCode": "PK",
+            "timezone": [
+                {
+                    "name": "Asia/Karachi",
+                    "countries": [
+                        "PK"
+                    ],
+                    "utcOffset": 300,
+                    "utcOffsetStr": "+05:00",
+                    "dstOffset": 300,
+                    "dstOffsetStr": "+05:00",
+                    "aliasOf": null
+                }
+            ]
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:08:14.842Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:08:14.850Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:08:14.852Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:11:46.554Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:11:46.561Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:11:46.562Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:20:26.732Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:20:26.741Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:20:26.742Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:53:15.341Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:53:15.349Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T17:53:15.350Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:24:52.535Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:24:52.543Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:24:52.546Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:31:17.401Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:31:17.408Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:31:17.409Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:24.674Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:24.683Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:24.684Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:30.237Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:30.244Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-30T18:34:30.245Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:23:12.889Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:23:12.899Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:23:12.900Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:23:33.196Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {}
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:24:22.557Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:24:22.565Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:24:22.566Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:24:25.588Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {}
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:24:59.241Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {}
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:25:38.619Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:25:38.626Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:25:38.627Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:25:40.727Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {}
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:26:59.023Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:26:59.029Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:26:59.030Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:27:06.000Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {}
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:44:06.938Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:44:06.946Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:44:06.947Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:46:04.013Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:46:04.021Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:46:04.023Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T08:46:08.726Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "test@g.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: test@g.com already exists for the user\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:30:15\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:46:47.326Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "success": true,
+            "_id": "66fbb6f7d671d053fce2ba6b"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:50:48.566Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:50:48.573Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:50:48.574Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:50:55.056Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "success": true,
+            "_id": "66fbb7eead30ec1b120b7c0e"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:51:40.076Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:51:40.084Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:51:40.085Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T08:51:44.486Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "66fbb820930736511d2e53db"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:09:18.299Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:09:18.307Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:09:18.309Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:26:16.641Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:26:16.650Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:26:16.652Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:26:43.622Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "66fbc05319ab06acf7c6ab03"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:06.396Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:06.403Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:06.405Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}

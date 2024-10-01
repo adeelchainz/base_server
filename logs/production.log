@@ -58,3 +58,44 @@
         "data": null
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.909Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.913Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.913Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:53.512Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "66fbc14db66c898b6773b7b3"
+        }
+    }
+}
