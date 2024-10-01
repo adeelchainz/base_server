@@ -10,6 +10,11 @@ import { IUser } from '../_shared/types/users.interface'
 import { EUserRoles } from '../../../constant/users'
 import emailService from '../../../services/email'
 import logger from '../../../handlers/logger'
+import validate from './validation/validations'
+import dayjs from 'dayjs'
+import utc from 'dayjs/plugin/utc'
+
+dayjs.extend(utc)
 
 export const registrationService = async (payload: IRegisterRequest) => {
     const { name, phoneNumber, email, password } = payload
@@ -26,11 +31,8 @@ export const registrationService = async (payload: IRegisterRequest) => {
         throw new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422)
     }
 
-    //Check if user already exists
-    const user = await query.findUserByEmail(email)
-    if (user) {
-        throw new CustomError(responseMessage.auth.ALREADY_EXISTS('user', email), 422)
-    }
+    //Validate if user already exists
+    await validate.userAlreadyExistsViaEmail(email)
 
     //Encrypting password
     const hashedPassword = await hashing.hashPassword(password)
@@ -84,5 +86,40 @@ export const registrationService = async (payload: IRegisterRequest) => {
     return {
         success: true,
         _id: newUser._id
+    }
+}
+
+export const accountConfirmationService = async (token: string, code: string) => {
+    const user = await query.findUserByConfirmationTokenAndCode(token, code)
+    if (!user) {
+        throw new CustomError(responseMessage.auth.USER_NOT_EXIST, 404)
+    }
+
+    //Check if account is already confirmed
+    if (user.accountConfimation.status) {
+        throw new CustomError(responseMessage.auth.ALREADY_CONFIRMED('Account'), 400)
+    }
+
+    //if not, lets confirm
+    user.accountConfimation.status = true
+    user.accountConfimation.timestamp = dayjs().utc().toDate()
+
+    await user.save()
+
+    //Sending confimation emails
+    const to = [user.email]
+    const subject = `Welcome to the base! `
+    const text = `Account has been confirmed.`
+
+    emailService.sendEmail(to, subject, text).catch((error) => {
+        logger.error('Error sending email', {
+            // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
+            meta: error
+        })
+    })
+
+    return {
+        success: true,
+        _id: user._id
     }
 }

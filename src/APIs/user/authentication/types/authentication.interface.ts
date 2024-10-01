@@ -11,3 +11,12 @@ export interface IRegisterRequest {
 export interface IRegister extends Request {
     body: IRegisterRequest
 }
+
+export interface IConfirmRegistration extends Request {
+    params: {
+        token: string
+    }
+    query: {
+        code: string
+    }
+}
