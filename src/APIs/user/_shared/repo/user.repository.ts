@@ -5,6 +5,9 @@ export default {
     findUserByEmail: (email: string, select: string = '') => {
         return userModel.findOne({ email }).select(select)
     },
+    findUserById: (id: string) => {
+        return userModel.findById(id)
+    },
     findUserByConfirmationTokenAndCode: (token: string, code: string) => {
         return userModel.findOne({
             'accountConfimation.token': token,
