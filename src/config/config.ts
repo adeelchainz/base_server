@@ -14,5 +14,15 @@ export default {
     //Email
     EMAIL_API_KEY: process.env.EMAIL_SERVICE_API_KEY,
 
-    SALT_ROUNDS: process.env.SALT_ROUNDS as string
+    //Tokens
+    TOKENS: {
+        ACCESS: {
+            SECRET: process.env.ACCESS_TOKEN_SECRET as string,
+            EXPIRY: 3600
+        },
+        REFRESH: {
+            SECRET: process.env.REFRESH_TOKEN_SECRET as string,
+            EXPIRY: 3600 * 24 * 365
+        }
+    }
 }

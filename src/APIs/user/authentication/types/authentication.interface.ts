@@ -20,3 +20,12 @@ export interface IConfirmRegistration extends Request {
         code: string
     }
 }
+
+export interface ILoginRequest {
+    email: string
+    password: string
+}
+
+export interface ILogin extends Request {
+    body: ILoginRequest
+}

@@ -2,12 +2,15 @@ import { NextFunction, Request, Response } from 'express'
 import httpResponse from '../../../handlers/httpResponse'
 import responseMessage from '../../../constant/responseMessage'
 import httpError from '../../../handlers/errorHandler/httpError'
-import { IConfirmRegistration, IRegister, IRegisterRequest } from './types/authentication.interface'
+import { IConfirmRegistration, ILogin, ILoginRequest, IRegister, IRegisterRequest } from './types/authentication.interface'
 import { validateSchema } from '../../../utils/joi-validate'
-import { registerSchema } from './validation/validation.schema'
-import { accountConfirmationService, registrationService } from './authentication.service'
+import { loginSchema, registerSchema } from './validation/validation.schema'
+import { accountConfirmationService, loginService, registrationService } from './authentication.service'
 import { CustomError } from '../../../utils/errors'
 import asyncHandler from '../../../handlers/async'
+import health from '../../../utils/health'
+import { EApplicationEnvironment } from '../../../constant/application'
+import config from '../../../config/config'
 
 export default {
     register: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
@@ -42,6 +45,48 @@ export default {
             const user = await accountConfirmationService(token, code)
 
             httpResponse(response, request, 201, responseMessage.auth.USER_REGISTERED, user)
+        } catch (error) {
+            if (error instanceof CustomError) {
+                httpError(next, error, request, error.statusCode)
+            } else {
+                httpError(next, error, request, 500)
+            }
+        }
+    }),
+    login: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
+        try {
+            const { body } = request as ILogin
+
+            //Payload validation
+            const { error, payload } = validateSchema<ILoginRequest>(loginSchema, body)
+            if (error) {
+                return httpError(next, error, request, 422)
+            }
+
+            const isLoggedIn = await loginService(payload)
+            if (isLoggedIn.success === true) {
+                //sending cookies
+                const DOMAIN = health.getDomain()
+                response
+                    .cookie('accessToken', isLoggedIn.accessToken, {
+                        path: '/v1',
+                        domain: DOMAIN,
+                        sameSite: 'strict',
+                        maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
+                        httpOnly: true,
+                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    })
+                    .cookie('refreshToken', isLoggedIn.refreshToken, {
+                        path: '/v1',
+                        domain: DOMAIN,
+                        sameSite: 'strict',
+                        maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
+                        httpOnly: true,
+                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    })
+
+                httpResponse(response, request, 200, responseMessage.auth.LOGIN_SUCCESSFUL, isLoggedIn)
+            }
         } catch (error) {
             if (error instanceof CustomError) {
                 httpError(next, error, request, error.statusCode)

@@ -6392,3 +6392,1517 @@
         "SERVER_URL": "http://localhost:3000"
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:29:09.284Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:29:09.295Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:29:09.297Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T13:29:09.747Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "onnexdevelopment@gmail.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: onnexdevelopment@gmail.com already exists for the user\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:9:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:45:28.835Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:45:28.843Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:45:28.844Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:13.613Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:13.620Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:13.621Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:34.794Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:34.802Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T13:47:34.803Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:02.662Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:02.675Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:02.676Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:26.056Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:26.063Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:22:26.064Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:23:26.605Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:23:26.614Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:23:26.616Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:54:50.194Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:54:50.205Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:54:50.206Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:55:12.423Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:55:12.431Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:55:12.433Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:56:50.051Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:56:50.058Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:56:50.059Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:57:33.737Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:57:33.751Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T16:57:33.752Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:03:24.685Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:03:24.692Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:03:24.693Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:23:12.335Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:23:12.341Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:23:12.342Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:25:11.127Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:25:11.134Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:25:11.135Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:01.140Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:01.148Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:01.149Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:11.848Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:11.856Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:26:11.857Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:27:13.251Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:27:13.261Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:27:13.263Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:29:48.287Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:29:48.295Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:29:48.296Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:30:26.593Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:30:26.600Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T17:30:26.602Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:11.818Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:11.830Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:11.831Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:36.750Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:36.759Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:01:36.760Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:02:23.410Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "\"name\" is required",
+        "data": null,
+        "trace": {
+            "error": "ValidationError: \"name\" is required"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:03:01.956Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:03:01.964Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:03:01.965Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:03:21.392Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:08:04.853Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:08:04.863Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:08:04.864Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:08:50.231Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:18.592Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:18.603Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:18.604Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:32.735Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:32.742Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:11:32.743Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:11:33.178Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:15:04.328Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:15:04.337Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:15:04.340Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:15:08.373Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:16:29.975Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:16:29.983Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:16:29.984Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:44:39.089Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:44:39.098Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:44:39.100Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:44:43.806Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:45:22.169Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:45:22.175Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:45:22.177Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:45:22.553Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot read properties of undefined (reading 'secret')",
+        "data": null,
+        "trace": {
+            "error": "TypeError: Cannot read properties of undefined (reading 'secret')\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:864:25)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:156:10\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:46:02.131Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:46:02.137Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:46:02.138Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:52:43.983Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:52:43.990Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:52:43.991Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:52:49.470Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T18:52:49.409Z",
+                "updatedAt": "2024-10-01T18:52:49.415Z"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:52:49.483Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "cookieParser(\"secret\") required for signed cookies",
+        "data": null,
+        "trace": {
+            "error": "Error: cookieParser(\"secret\") required for signed cookies\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:868:11)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:74:18\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:54:14.919Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:54:14.933Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:54:14.934Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:54:17.882Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T18:54:17.572Z",
+                "updatedAt": "2024-10-01T18:54:17.577Z"
+            }
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-01T18:54:17.894Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Cannot set headers after they are sent to the client",
+        "data": null,
+        "trace": {
+            "error": "Error: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:659:11)\n    at ServerResponse.header (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.append (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:755:15)\n    at ServerResponse.res.cookie (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\response.js:892:8)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:74:18\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.controller.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:55:50.441Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:55:50.448Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:55:50.449Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T18:55:57.778Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T18:55:57.718Z",
+                "updatedAt": "2024-10-01T18:55:57.724Z"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:00:36.878Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:00:36.884Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:00:36.891Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:00:50.443Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T19:00:50.383Z",
+                "updatedAt": "2024-10-01T19:00:50.390Z"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:04:54.124Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:04:54.132Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:04:54.133Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:04:56.974Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T19:04:56.915Z",
+                "updatedAt": "2024-10-01T19:04:56.920Z"
+            }
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:33.550Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:33.556Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:33.557Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:34.013Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-01T19:05:33.951Z",
+                "updatedAt": "2024-10-01T19:05:33.957Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4MDk1MzMsImV4cCI6MTcyNzgxMzEzM30.5xV14d6otE1NGajxhEW72QvCYV4wQlUOET4CDUTvK28",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4MDk1MzMsImV4cCI6MTc1OTM0NTUzM30.vyLYWcHBXp2BG86MtY3NlGuNYMB3W8MSgD8cdYzh1_8"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:53.518Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:53.527Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T19:05:53.529Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:07:36.187Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:07:36.201Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:07:36.203Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:08:18.792Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:08:18.799Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:08:18.801Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:09:36.737Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:09:36.744Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:09:36.746Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:10:41.794Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:10:41.802Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:10:41.803Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:16.853Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:16.861Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:16.862Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:52.225Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:52.233Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:11:52.234Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:12:57.122Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:12:57.130Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:12:57.131Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:42.374Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:42.381Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:42.382Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:55.270Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:55.277Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:13:55.278Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:17:55.823Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:17:55.837Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:17:55.838Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:18:01.616Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-02T09:18:01.498Z",
+                "updatedAt": "2024-10-02T09:18:01.506Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA2ODEsImV4cCI6MTcyNzg2NDI4MX0.b8QLemvTqMgDnakTybpVanRPgEg1K5skE41936OasmU",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA2ODEsImV4cCI6MTc1OTM5NjY4MX0.2cUii_1-lM3fwCs1iuMzG8c83DQ1sgkAveynh-wM5z4"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:05.126Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:05.142Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:05.144Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:18.273Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:18.283Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:18.285Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:18.828Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-02T09:19:18.716Z",
+                "updatedAt": "2024-10-02T09:19:18.723Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA3NTgsImV4cCI6MTcyNzg2NDM1OH0.VJUuYgM57y3dav0YuIL8zVNwoGK__2K7Heg4E9eKkmQ",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA3NTgsImV4cCI6MTc1OTM5Njc1OH0.Z7mEcl9R8tfHqAhzm432z13X2693d37uohjx0BvJ3B4"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:39.566Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:39.573Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:39.575Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T09:19:40.092Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-02T09:19:39.976Z",
+                "updatedAt": "2024-10-02T09:19:39.982Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA3NzksImV4cCI6MTcyNzg2NDM3OX0.vZEsWVAGjhi0slLut0-XFDXikF3GhjEcOURHrjQYKgA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4NjA3NzksImV4cCI6MTc1OTM5Njc3OX0.HU4eoeW197aWKENvyirjoElPA6MV-_KgvYk4BCrzZUM"
+        }
+    }
+}

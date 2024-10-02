@@ -5,10 +5,12 @@ export default {
     TOO_MANY_REQUESTS: `So many requests`,
 
     auth: {
+        ALREADY_EXISTS: (entity: string, identifier: string) => `${identifier} already exists for the ${entity}`,
+        ALREADY_CONFIRMED: (entity: string) => `${entity} already CONFIRMED`,
         INVALID_PHONE_NUMBER: `Invalid phone number`,
         USER_REGISTERED: `Account has been created successfully.`,
-        ALREADY_EXISTS: (entity: string, identifier: string) => `${identifier} already exists for the ${entity}`,
         USER_NOT_EXIST: `Account does not exist`,
-        ALREADY_CONFIRMED: (entity: string) => `${entity} already CONFIRMED`
+        INVALID_EMAIL_OR_PASSWORD: `Invalid email or password`,
+        LOGIN_SUCCESSFUL: `Login successful`
     }
 }

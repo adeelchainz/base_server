@@ -18,5 +18,13 @@ export default {
                 heapUsed: `${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)} MB`
             }
         }
+    },
+    getDomain: () => {
+        try {
+            const url = new URL(config.SERVER_URL as string)
+            return url.hostname
+        } catch (error) {
+            throw error
+        }
     }
 }

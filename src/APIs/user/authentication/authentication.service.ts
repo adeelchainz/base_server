@@ -1,6 +1,6 @@
 import responseMessage from '../../../constant/responseMessage'
 import parsers from '../../../utils/parsers'
-import { IRegisterRequest } from './types/authentication.interface'
+import { ILoginRequest, IRegisterRequest } from './types/authentication.interface'
 import dateAndTime from '../../../utils/date-and-time'
 import { CustomError } from '../../../utils/errors'
 import query from '../_shared/repo/user.repository'
@@ -13,6 +13,10 @@ import logger from '../../../handlers/logger'
 import validate from './validation/validations'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
+import jwt from '../../../utils/jwt'
+import config from '../../../config/config'
+import { IToken } from '../_shared/types/token.interface'
+import tokenRepository from '../_shared/repo/token.repository'
 
 dayjs.extend(utc)
 
@@ -121,5 +125,42 @@ export const accountConfirmationService = async (token: string, code: string) =>
     return {
         success: true,
         _id: user._id
+    }
+}
+
+export const loginService = async (payload: ILoginRequest) => {
+    const { email, password } = payload
+
+    //Check if the user is registered
+    const user = await query.findUserByEmail(email, 'password')
+    if (!user) {
+        throw new CustomError(responseMessage.NOT_FOUND('User'), 404)
+    }
+
+    //Validate password
+    const isValidPassword = await hashing.comparePassword(password, user.password)
+    if (!isValidPassword) {
+        throw new CustomError(responseMessage.auth.INVALID_EMAIL_OR_PASSWORD, 400)
+    }
+
+    //Genrate tokens
+    const accessToken = jwt.generateToken({ userId: user._id }, config.TOKENS.ACCESS.SECRET, config.TOKENS.ACCESS.EXPIRY)
+    const refreshToken = jwt.generateToken({ userId: user._id }, config.TOKENS.REFRESH.SECRET, config.TOKENS.REFRESH.EXPIRY)
+
+    user.lastLoginAt = dayjs().utc().toDate()
+
+    await user.save()
+
+    //Storing refresh token into db
+    const token: IToken = {
+        token: refreshToken
+    }
+    await tokenRepository.createToken(token)
+
+    return {
+        success: true,
+        user: user,
+        accessToken: accessToken,
+        refreshToken: refreshToken
     }
 }
