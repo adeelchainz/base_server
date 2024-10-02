@@ -99,3 +99,111 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.978Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.982Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.982Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-02T17:26:55.556Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "secretOrPrivateKey must have a value",
+        "data": null,
+        "trace": {
+            "error": "Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateToken (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\utils\\jwt.ts:5:20)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:147:29\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\APIs\\user\\authentication\\authentication.service.js:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-02T17:27:39.143Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "secretOrPrivateKey must have a value",
+        "data": null,
+        "trace": {
+            "error": "Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateToken (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\utils\\jwt.ts:5:20)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:147:29\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\APIs\\user\\authentication\\authentication.service.js:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.024Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.028Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.029Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.992Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-02T17:27:47.870Z",
+                "updatedAt": "2024-10-02T17:27:47.876Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4OTAwNjcsImV4cCI6MTcyNzg5MzY2N30.uiX0m0J-OXkJTow5S8XiR4f8AFPoJgvbqdi-kjESXuk",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4OTAwNjcsImV4cCI6MTc1OTQyNjA2N30.mASEnUFvtn6IJGb37T0UkI8-LlbG9SKIEK9WGRNVQXw"
+        }
+    }
+}

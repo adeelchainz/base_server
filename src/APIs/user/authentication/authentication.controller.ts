@@ -11,6 +11,7 @@ import asyncHandler from '../../../handlers/async'
 import health from '../../../utils/health'
 import { EApplicationEnvironment } from '../../../constant/application'
 import config from '../../../config/config'
+import query from '../_shared/repo/token.repository'
 
 export default {
     register: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
@@ -93,6 +94,41 @@ export default {
             } else {
                 httpError(next, error, request, 500)
             }
+        }
+    }),
+    logout: asyncHandler(async (request: Request, response: Response, next: NextFunction) => {
+        try {
+            const { cookies } = request
+            const { refreshToken } = cookies as {
+                refreshToken: string | undefined
+            }
+            if (refreshToken) {
+                await query.deleteToken(refreshToken)
+            }
+
+            const DOMAIN = health.getDomain()
+            //Clearing cookies
+            response
+                .clearCookie('accessToken', {
+                    path: '/v1',
+                    domain: DOMAIN,
+                    sameSite: 'strict',
+                    maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
+                    httpOnly: true,
+                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                })
+                .clearCookie('refreshToken', {
+                    path: '/v1',
+                    domain: DOMAIN,
+                    sameSite: 'strict',
+                    maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
+                    httpOnly: true,
+                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                })
+
+            httpResponse(response, request, 200, responseMessage.SUCCESS, null)
+        } catch (error) {
+            httpError(next, error, request, 500)
         }
     })
 }
