@@ -1,9 +1,3 @@
----
-runme:
-  id: 01J99J9THFCSQ2GV9Q3VNCDECZ
-  version: v3
----
-
 # 🚀 Node.js TypeScript Server Boilerplate
 
 A lightweight boilerplate for building scalable Node.js applications using TypeScript. Perfect for rapid development and adhering to best practices!
