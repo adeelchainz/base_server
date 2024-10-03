@@ -1,9 +1,3 @@
----
-runme:
-  id: 01J99J9THFCSQ2GV9Q3VNCDECZ
-  version: v3
----
-
 # Node.js TypeScript Server Boilerplate
 
 This is a boilerplate for a Node.js server built with TypeScript. It provides essential configurations and tools for building scalable applications, following a feature-based directory structure.
