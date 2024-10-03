@@ -1,0 +1,292 @@
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T18:51:05.146Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "test"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T18:51:05.152Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T18:51:05.152Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T19:04:34.217Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T19:04:34.222Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T19:04:34.222Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-09-26T19:04:56.039Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.909Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.913Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:33.913Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-01T09:30:53.512Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "Account has been created successfully.",
+        "data": {
+            "success": true,
+            "_id": "66fbc14db66c898b6773b7b3"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.978Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.982Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:26:41.982Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-02T17:26:55.556Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "secretOrPrivateKey must have a value",
+        "data": null,
+        "trace": {
+            "error": "Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateToken (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\utils\\jwt.ts:5:20)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:147:29\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\APIs\\user\\authentication\\authentication.service.js:5:58)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-02T17:27:39.143Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 500,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "secretOrPrivateKey must have a value",
+        "data": null,
+        "trace": {
+            "error": "Error: secretOrPrivateKey must have a value\n    at Object.module.exports [as sign] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\jsonwebtoken\\sign.js:111:20)\n    at Object.generateToken (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\utils\\jwt.ts:5:20)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\authentication.service.ts:147:29\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\APIs\\user\\authentication\\authentication.service.js:5:58)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.024Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.028Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.029Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-02T17:27:47.992Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-02T17:27:47.870Z",
+                "updatedAt": "2024-10-02T17:27:47.876Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4OTAwNjcsImV4cCI6MTcyNzg5MzY2N30.uiX0m0J-OXkJTow5S8XiR4f8AFPoJgvbqdi-kjESXuk",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc4OTAwNjcsImV4cCI6MTc1OTQyNjA2N30.mASEnUFvtn6IJGb37T0UkI8-LlbG9SKIEK9WGRNVQXw"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.242Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.246Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.247Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-03T15:16:04.391Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/logout"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:29:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\middlewares\\authenticate.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\middlewares\\authenticate.js:4:12)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:10:97\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:16:16.524Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-03T15:16:16.390Z",
+                "updatedAt": "2024-10-03T15:16:16.401Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc5Njg1NzYsImV4cCI6MTcyNzk3MjE3Nn0.YR-JqgKYJzEeYe1ONopJYwYra0hBWInNThXUaRaYvGA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc5Njg1NzYsImV4cCI6MTc1OTUwNDU3Nn0.B5OSfetJYXl9b16_FEyqKBi5ZQ-Z5P8_h_CfKXTR1aY"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:16:21.391Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/logout"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
