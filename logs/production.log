@@ -207,3 +207,86 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.242Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.246Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:15:42.247Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-03T15:16:04.391Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/logout"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:29:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\middlewares\\authenticate.js:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\dist\\middlewares\\authenticate.js:4:12)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:10:97\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:119:3)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:16:16.524Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-03T15:16:16.390Z",
+                "updatedAt": "2024-10-03T15:16:16.401Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc5Njg1NzYsImV4cCI6MTcyNzk3MjE3Nn0.YR-JqgKYJzEeYe1ONopJYwYra0hBWInNThXUaRaYvGA",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3Mjc5Njg1NzYsImV4cCI6MTc1OTUwNDU3Nn0.B5OSfetJYXl9b16_FEyqKBi5ZQ-Z5P8_h_CfKXTR1aY"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-03T15:16:21.391Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/logout"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
