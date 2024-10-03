@@ -11,6 +11,7 @@
         "format:check": "prettier . --check",
         "format:fix": "prettier . --fix",
         "test": "jest --detectOpenHandles",
+        "watch": "npx jest --watch",
         "prepare": "husky",
         "migrate:dev": "cross-env MIGRATE_MODE=development node scripts/migration.js",
         "migrate:prod": "cross-env MIGRATE_MODE=production node scripts/migration.js",
