@@ -7,9 +7,12 @@ const { initGit } = require('./utils/git')
 const inquirer = require('inquirer')
 const chalk = require('chalk')
 
+const checkDependencies = require('./utils/checkDependencies')
+
 // Main setup function
 const runSetup = async () => {
     checkNodeVersion()
+    await checkDependencies() // Check for required dependencies
     await installDependencies()
 
     const { createEnv } = await inquirer.prompt([
