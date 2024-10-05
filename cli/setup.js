@@ -4,13 +4,14 @@ const fs = require('fs')
 const path = require('path')
 const semver = require('semver')
 const { promisify } = require('util')
-const { installProjectPackages } = require('./npmInstaller')
-const { createEnvFiles } = require('./createEnvFiles')
-const { installRequiredDependencies } = require('./installRequiredDependencies')
-const { promptForDatabaseUrl } = require('./addDbUrltoEnv')
-const { runNpmBuildAndCheckDist } = require('./runNpmBuildAndCheckDist ')
-const { runTests } = require('./runTests')
-const { askRunMethod } = require('./askRunMethod')
+const { installProjectPackages } = require('./utils/npmInstaller')
+const { createEnvFiles } = require('./utils/createEnvFiles')
+const { installRequiredDependencies } = require('./utils/installRequiredDependencies')
+const { promptForDatabaseUrl } = require('./utils/addDbUrltoEnv')
+const { runNpmBuildAndCheckDist } = require('./utils/runNpmBuildAndCheckDist ')
+const { runTests } = require('./utils/runTests')
+const { askRunMethod } = require('./utils/askRunMethod')
+const { checkGitInitialization } = require('./utils/gitHandler')
 const exec = promisify(require('child_process').exec) // Using promisify to run commands
 
 const packageJsonPath = path.resolve(__dirname, '../package.json') // Path to package.json
@@ -112,12 +113,13 @@ const main = async () => {
     const requiredNodeVersion = getRequiredNodeVersion() // Step 1: Get the required Node.js version from package.json
     checkNodeVersion(requiredNodeVersion) // Step 2: Check Node.js version compatibility
 
-    // await installRequiredDependencies()
+    await installRequiredDependencies()
 
-    // logMessage('All required dependencies are installed and ready to use!\n', 'success')
+    logMessage('All required dependencies are installed and ready to use!\n', 'success')
 
-    // await installProjectPackages()
+    await installProjectPackages()
     await createEnvFiles()
+    await checkGitInitialization()
 
     // Call the function to prompt for input
     await runNpmBuildAndCheckDist()

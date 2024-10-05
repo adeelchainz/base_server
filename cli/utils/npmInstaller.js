@@ -3,7 +3,7 @@ const path = require('path')
 const { promisify } = require('util')
 const exec = promisify(require('child_process').exec) // Using promisify to run commands
 
-const packageJsonPath = path.resolve(__dirname, '../package.json') // Path to package.json
+const packageJsonPath = path.resolve(__dirname, '../../package.json') // Path to package.json
 
 // Function to log messages
 const logMessage = async (message, type = 'info') => {

@@ -4,10 +4,10 @@ const fs = require('fs')
 const path = require('path')
 
 // Define paths for .env and .env.example files
-const envExamplePath = path.resolve(__dirname, '../.env.example')
-const envDevPath = path.resolve(__dirname, '../.env.development')
-const envTestPath = path.resolve(__dirname, '../.env.test')
-const envProdPath = path.resolve(__dirname, '../.env.production')
+const envExamplePath = path.resolve(__dirname, '../../.env.example')
+const envDevPath = path.resolve(__dirname, '../../.env.development')
+const envTestPath = path.resolve(__dirname, '../../.env.test')
+const envProdPath = path.resolve(__dirname, '../../.env.production')
 
 /**
  * Create environment files from the .env.example file.

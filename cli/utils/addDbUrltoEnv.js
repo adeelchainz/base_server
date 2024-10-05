@@ -19,7 +19,7 @@ const logMessage = async (message, type = 'info') => {
 
 // Function to update the DATABASE_URL in .env.development
 const updateDatabaseUrlInDevEnv = async (dbUrl) => {
-    const envFilePath = path.resolve(__dirname, '../.env.development')
+    const envFilePath = path.resolve(__dirname, '../../.env.development')
 
     // Prepare the new DATABASE_URL entry
     const newEntry = `DATABASE_URL="${dbUrl}"\n`

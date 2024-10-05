@@ -21,7 +21,7 @@ const logMessage = async (message, type = 'info') => {
  * Run the npm build command and check for the dist folder.
  */
 const runNpmBuildAndCheckDist = async () => {
-    const distFolderPath = path.resolve(__dirname, '../dist') // Path to the dist folder
+    const distFolderPath = path.resolve(__dirname, '../../dist') // Path to the dist folder
 
     await logMessage('🔨 Starting npm build process...', 'info')
 

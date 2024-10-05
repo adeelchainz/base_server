@@ -26,9 +26,9 @@ const runTests = async () => {
             console.error(stderr) // Log any error output
         }
 
-        await logMessage('✔ All tests passed successfully!', 'success')
+        await logMessage('✔ All tests passed successfully!\n', 'success')
     } catch (error) {
-        await logMessage('✖ Tests failed! Please check the error above.', 'error')
+        await logMessage('✖ Tests failed! Please check the error above.\n', 'error')
         process.exit(1) // Exit the process if tests fail
     }
 }
