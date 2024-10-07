@@ -2,6 +2,9 @@
     "name": "base_server",
     "version": "1.0.0",
     "main": "index.js",
+    "bin": {
+        "setup": "./cli/setup.js"
+    },
     "scripts": {
         "build": "npx tsc",
         "start:dev": "cross-env NODE_ENV=development nodemon --legacy-watch src/bin/server.ts",
@@ -15,7 +18,8 @@
         "prepare": "husky",
         "migrate:dev": "cross-env MIGRATE_MODE=development node scripts/migration.js",
         "migrate:prod": "cross-env MIGRATE_MODE=production node scripts/migration.js",
-        "dockerize:dev": "docker build -t base-server:dev -f docker/development/Dockerfile ."
+        "dockerize:dev": "docker build -t base-server:dev -f docker/development/Dockerfile .",
+        "updates:check": "ncu"
     },
     "author": "",
     "license": "ISC",
@@ -59,6 +63,7 @@
     },
     "dependencies": {
         "bcrypt": "^5.1.1",
+        "chalk": "^5.3.0",
         "colorette": "^2.0.20",
         "cookie-parser": "^1.4.6",
         "cors": "^2.8.5",
@@ -66,14 +71,19 @@
         "cross-env": "^7.0.3",
         "dayjs": "^1.11.13",
         "dotenv-flow": "^4.1.0",
+        "execa": "^9.4.0",
         "express": "^4.21.0",
         "helmet": "^7.1.0",
+        "inquirer": "^11.1.0",
         "joi": "^17.13.3",
         "jsonwebtoken": "^9.0.2",
         "libphonenumber-js": "^1.11.9",
         "mongoose": "^8.6.3",
+        "ora": "^8.1.0",
+        "progress": "^2.0.3",
         "rate-limiter-flexible": "^5.0.3",
         "resend": "^4.0.0",
+        "semver": "^7.6.3",
         "source-map-support": "^0.5.21",
         "ts-migrate-mongoose": "^3.8.4",
         "uuid": "^10.0.0",
