@@ -9901,3 +9901,3407 @@
         }
     }
 }
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:49.024Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:49.036Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:49.038Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:56.042Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:57.062Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:57.993Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:58.847Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:08:59.689Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:00.556Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:01.397Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:02.307Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:03.105Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:04.049Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:04.851Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:05.766Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:06.584Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:07.609Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:40.071Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:41.104Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:42.118Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:42.938Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:43.433Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:43.924Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": null,
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:44.293Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:44.829Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:45.219Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:45.705Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:46.419Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:09:47.998Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:38.555Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:38.565Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:38.567Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:46.125Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:47.660Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:48.640Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:49.532Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:50.286Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:51.125Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:51.855Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:52.778Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:53.697Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:54.620Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:55.644Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:56.568Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:57.384Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:58.210Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:59.227Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:10:59.780Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:00.456Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:01.035Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:01.700Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:02.301Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:02.958Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:03.429Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:04.039Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:04.448Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:06.807Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T08:02:38.562Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T08:02:38.569Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:16.996Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:17.800Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:18.489Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:19.173Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:19.771Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:20.361Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:20.921Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:21.512Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:22.181Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:22.878Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:23.474Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:24.095Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:24.760Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:25.445Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:26.198Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:26.849Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:27.474Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:58.134Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:11:59.222Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:00.335Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:01.409Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:02.625Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:03.635Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:04.803Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:06.068Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:08.594Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:10.013Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:11.221Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:12:12.455Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:11.127Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:11.135Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:11.137Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:13.773Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:14.910Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:15.990Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:16.949Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:17.907Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:19.005Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:19.991Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:21.198Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:22.367Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:23.547Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:25.792Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:13:27.100Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:17.377Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:17.388Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:17.389Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:30.541Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:31.710Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:32.632Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:33.452Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:34.374Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:35.032Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:35.909Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:36.627Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:37.444Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:14:38.105Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-07T08:14:39.165Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 429,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "So many requests",
+        "data": null,
+        "trace": {
+            "error": "Error: So many requests\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:21:33\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:15:06.906Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:15:06.915Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:15:06.916Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T08:32:32.023Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "1050.85 Second",
+                "memoryUsage": {
+                    "heapTotal": "193.13 MB",
+                    "heapUsed": "188.40 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "7502.02 MB",
+                "freeMemory": "473.76 MB"
+            },
+            "timeStamp": 1728289951999
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:14:42.519Z",
+    "message": "Database connection established",
+    "meta": {
+        "CONNECTION_NAME": "base"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:14:42.531Z",
+    "message": "Rate limiter initiated",
+    "meta": {}
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:14:42.532Z",
+    "message": "Application started on port 3000",
+    "meta": {
+        "SERVER_URL": "http://localhost:3000"
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:57:11.756Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-07T09:58:52.024Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 422,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/register"
+        },
+        "message": "onnexdevelopment@gmail.com already exists for the user",
+        "data": null,
+        "trace": {
+            "error": "Error: onnexdevelopment@gmail.com already exists for the user\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:9:19\n    at Generator.next (<anonymous>)\n    at fulfilled (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\APIs\\user\\authentication\\validation\\validations.ts:5:58)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)"
+        }
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-07T09:59:17.661Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 404,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/abdullah"
+        },
+        "message": "Route is not found",
+        "data": null,
+        "trace": {
+            "error": "Error: Route is not found\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\notFound.ts:7:15)\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:646:15\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:265:14)\n    at Function.handle (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\index.js:47:12)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:59:27.632Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "POST",
+            "url": "/v1/login"
+        },
+        "message": "Login successful",
+        "data": {
+            "success": true,
+            "user": {
+                "_id": "66fbe5a3a4dd77bb74b90767",
+                "password": "$2b$10$fvBIxYM2jozV4XDPPV4q6.MQBhn3hRFvpqbk/kRtogOtPUufFht9.",
+                "lastLoginAt": "2024-10-07T09:59:27.486Z",
+                "updatedAt": "2024-10-07T09:59:27.509Z"
+            },
+            "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3MjgyOTUxNjcsImV4cCI6MTcyODI5ODc2N30.ghO_ilgdyhqqNXP9HYWL3Diwto18TYqtRTYzTmjbp3s",
+            "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NmZiZTVhM2E0ZGQ3N2JiNzRiOTA3NjciLCJpYXQiOjE3MjgyOTUxNjcsImV4cCI6MTc1OTgzMTE2N30.AsrAODsmvqM8qJAQSstDhiqpBj7TfiJg05kFzlQATQE"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:59:47.353Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 201,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "phoneNumber": {
+                "isoCode": "PK",
+                "countryCode": "92",
+                "internationalNumber": "+92 333 1234567"
+            },
+            "accountConfimation": {
+                "status": true,
+                "token": "67fac7be-eec0-42ba-b990-2f51abdef488",
+                "code": "987775",
+                "timestamp": "2024-10-01T12:06:54.777Z"
+            },
+            "passwordReset": {
+                "token": null,
+                "expiry": null,
+                "lastResetAt": null
+            },
+            "_id": "66fbe5a3a4dd77bb74b90767",
+            "name": "A XYZ",
+            "email": "onnexdevelopment@gmail.com",
+            "timezone": "Asia/Karachi",
+            "role": "user",
+            "lastLoginAt": "2024-10-07T09:59:27.486Z",
+            "consent": true,
+            "createdAt": "2024-10-01T12:05:55.669Z",
+            "updatedAt": "2024-10-07T09:59:27.509Z",
+            "__v": 0
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T09:59:56.405Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "PUT",
+            "url": "/v1/logout"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "ERROR",
+    "timestamp": "2024-10-07T10:00:02.014Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": false,
+        "statusCode": 401,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/user/me"
+        },
+        "message": "You are not allowed to perform this task",
+        "data": null,
+        "trace": {
+            "error": "Error: You are not allowed to perform this task\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:29:25\n    at Generator.next (<anonymous>)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:8:71\n    at new Promise (<anonymous>)\n    at __awaiter (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:4:12)\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\authenticate.ts:10:97\n    at C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\handlers\\async.ts:5:25\n    at Layer.handle [as handle_request] (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at exports.default (C:\\Users\\Administrator\\Desktop\\Projects\\workspace\\base_server\\base_server\\src\\middlewares\\rateLimiter.ts:11:16)"
+        }
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T10:19:18.548Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/self"
+        },
+        "message": "Operation is completed",
+        "data": null
+    }
+}
+{
+    "level": "INFO",
+    "timestamp": "2024-10-07T10:19:33.452Z",
+    "message": "Controller Response",
+    "meta": {
+        "success": true,
+        "statusCode": 200,
+        "request": {
+            "ip": "::1",
+            "method": "GET",
+            "url": "/v1/health"
+        },
+        "message": "Operation is completed",
+        "data": {
+            "application": {
+                "environment": "development",
+                "uptime": "3895.40 Second",
+                "memoryUsage": {
+                    "heapTotal": "197.38 MB",
+                    "heapUsed": "192.66 MB"
+                }
+            },
+            "system": {
+                "cpuUsage": [
+                    0,
+                    0,
+                    0
+                ],
+                "totalMemory": "7502.02 MB",
+                "freeMemory": "702.99 MB"
+            },
+            "timeStamp": 1728296373452
+        }
+    }
+}
