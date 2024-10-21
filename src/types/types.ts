@@ -29,6 +29,7 @@ export type THttpError = {
 
 export interface IAuthenticateRequest extends Request {
     authenticatedUser: IUser
+    ownerId?: string
 }
 
 export interface IDecryptedJwt extends JwtPayload {
