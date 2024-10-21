@@ -10,7 +10,7 @@ export const createProjectSchema = joi.object<ICreateProjectRequest, true>({
     owner: joi
         .string()
         .regex(/^[0-9a-fA-F]{24}$/)
-        .required(), // Validates MongoDB ObjectId
+        .optional(), // Validates MongoDB ObjectId
     status: joi
         .object({
             startDate: joi.date().optional(),
