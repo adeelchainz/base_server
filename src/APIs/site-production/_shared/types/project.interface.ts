@@ -15,10 +15,10 @@ export interface IProject {
     creatorEmail: string
     createdBy?: IUserWithId['_id']
     status: {
-        startDate?: Date
-        endDate?: Date
-        isActive?: boolean
-        progressPercentage?: number
+        startDate?: Date 
+        endDate?: Date 
+        isActive?: boolean 
+        progressPercentage?: number 
     }
     inventory: IResource[]
     createdAt: Date
