@@ -17,23 +17,11 @@ const userSchema = new mongoose.Schema<IUser>(
         },
         phoneNumber: {
             _id: false,
-            isoCode: {
-                type: String,
-                required: true
-            },
-            countryCode: {
-                type: String,
-                required: true
-            },
-            internationalNumber: {
-                type: String,
-                required: true
-            }
+            isoCode: { type: String, default: '' },
+            countryCode: { type: String, default: '' },
+            internationalNumber: { type: String, default: '' }
         },
-        timezone: {
-            type: String,
-            required: true
-        },
+        timezone: { type: String, default: '' },
         password: {
             type: String,
             required: true,
@@ -45,7 +33,7 @@ const userSchema = new mongoose.Schema<IUser>(
             enum: EUserRoles,
             required: true
         },
-        accountConfimation: {
+        accountConfirmation: {
             _id: false,
             status: {
                 type: Boolean,
@@ -54,15 +42,15 @@ const userSchema = new mongoose.Schema<IUser>(
             },
             token: {
                 type: String,
-                rquired: true
+                required: true
             },
             code: {
                 type: String,
-                rquired: true
+                required: true
             },
             timestamp: {
                 type: Date,
-                rquired: true
+                default: null
             }
         },
         passwordReset: {

@@ -15,7 +15,7 @@ app.use(cookieParser())
 app.use(
     cors({
         methods: ['GET', 'POST', 'DELETE', 'OPTIONS', 'HEAD', 'PUT', 'PATCH'],
-        origin: ['https://xyz.com'],
+        origin: process.env.CORS_ORIGIN ? process.env.CORS_ORIGIN.split(',').map(o => o.trim()) : [],
         credentials: true
     })
 )

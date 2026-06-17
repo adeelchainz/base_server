@@ -1,4 +1,4 @@
-
-
-npx --no-install devmoji -e
-npx --no-install commitlint --edit "$1"
+#!/bin/sh
+export PATH="C:/Program Files/nodejs:C:/Users/ASSIG/AppData/Roaming/npm:$PATH"
+./node_modules/.bin/devmoji -e
+./node_modules/.bin/commitlint --edit "$1"

@@ -9,7 +9,7 @@ export default {
     me: (request: Request, response: Response, next: NextFunction) => {
         try {
             const { authenticatedUser } = request as unknown as IMyUser
-            httpResponse(response, request, 201, responseMessage.SUCCESS, authenticatedUser)
+            httpResponse(response, request, 200, responseMessage.SUCCESS, authenticatedUser)
         } catch (error) {
             if (error instanceof CustomError) {
                 httpError(next, error, request, error.statusCode)

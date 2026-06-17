@@ -6,7 +6,7 @@ export default {
     userAlreadyExistsViaEmail: async (email: string) => {
         const user = await query.findUserByEmail(email)
         if (user) {
-            throw new CustomError(responseMessage.auth.ALREADY_EXISTS('user', email), 422)
+            throw new CustomError(responseMessage.auth.ALREADY_EXISTS('user', email), 409)
         }
         return
     }

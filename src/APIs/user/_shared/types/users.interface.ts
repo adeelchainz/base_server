@@ -1,17 +1,18 @@
 import { EUserRoles } from '../../../../constant/users'
+import mongoose from 'mongoose'
 
 export interface IUser {
     name: string
     email: string
-    phoneNumber: {
-        isoCode: string
-        countryCode: string
-        internationalNumber: string
+    phoneNumber?: {
+        isoCode?: string
+        countryCode?: string
+        internationalNumber?: string
     }
-    timezone: string
+    timezone?: string
     password: string
     role: EUserRoles
-    accountConfimation: {
+    accountConfirmation: {
         status: boolean
         token: string
         code: string
@@ -27,5 +28,5 @@ export interface IUser {
 }
 
 export interface IUserWithId extends IUser {
-    _id: string
+    _id: mongoose.Types.ObjectId | string
 }

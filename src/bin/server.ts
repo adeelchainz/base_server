@@ -4,6 +4,7 @@ import config from '../config/config'
 import logger from '../handlers/logger'
 
 const server = app.listen(config.PORT)
+
 void (async () => {
     try {
         await bootstrap().then(() => {
@@ -15,7 +16,6 @@ void (async () => {
         logger.error(`Error starting server:`, { meta: error })
         server.close((err) => {
             if (err) logger.error(`error`, { meta: error })
-
             process.exit(1)
         })
     }

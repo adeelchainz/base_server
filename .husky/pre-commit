@@ -1,1 +1,6 @@
-npx lint-staged
+#!/bin/sh
+export PATH="C:/Program Files/nodejs:C:/Users/ASSIG/AppData/Roaming/npm:$PATH"
+# Ensure gitignored files never sneak into commits
+git rm --cached --ignore-unmatch .claude/settings.json .claude/settings.local.json \
+  "logs/development.log" "logs/production.log" "logs/undefined.log" 2>/dev/null || true
+./node_modules/.bin/lint-staged

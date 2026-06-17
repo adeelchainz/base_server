@@ -1,5 +1,5 @@
 import { Request } from 'express'
-import { IUser } from '../APIs/user/_shared/types/users.interface'
+import { IUserWithId } from '../APIs/user/_shared/types/users.interface'
 import { JwtPayload } from 'jsonwebtoken'
 
 export type THttpResponse = {
@@ -28,7 +28,7 @@ export type THttpError = {
 }
 
 export interface IAuthenticateRequest extends Request {
-    authenticatedUser: IUser
+    authenticatedUser: IUserWithId
 }
 
 export interface IDecryptedJwt extends JwtPayload {

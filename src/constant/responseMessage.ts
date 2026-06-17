@@ -12,6 +12,8 @@ export default {
         USER_REGISTERED: `Account has been created successfully.`,
         USER_NOT_EXIST: `Account does not exist`,
         INVALID_EMAIL_OR_PASSWORD: `Invalid email or password`,
+        ACCOUNT_NOT_CONFIRMED: `Account has not been confirmed. Please check your email.`,
+        ACCOUNT_CONFIRMED: `Account has been confirmed successfully.`,
         LOGIN_SUCCESSFUL: `Login successful`
     }
 }

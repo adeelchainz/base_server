@@ -2,6 +2,33 @@ node_modules
 
 dist
 
+.env
 .env.development
 .env.production
 .env.test
+
+.claude/
+
+# Tesseract language data (downloaded at runtime)
+*.traineddata
+tessdata/
+
+# Logs
+logs/*.log
+.superpowers/
+
+# Next.js frontend build artifacts
+frontend/.next/
+frontend/tsconfig.tsbuildinfo
+
+# Screenshots / local captures
+Capture.PNG
+*.png
+*.PNG
+
+# Claude Code planning docs
+docs/superpowers/
+
+# Python
+trocr/__pycache__/
+trocr/*.pyc

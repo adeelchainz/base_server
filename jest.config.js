@@ -4,5 +4,5 @@ module.exports = {
     moduleNameMapper: {
         '^@/(.*)$': '<rootDir>/src/$1' // Adjust according to your project structure
     },
-    testPathIgnorePatterns: ['/node_modules/', '/dist/'] // Ignore these directories
+    testPathIgnorePatterns: ['/node_modules/', '/dist/', '/.claude/']
 }

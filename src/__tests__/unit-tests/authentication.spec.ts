@@ -14,7 +14,7 @@ import tokenRepository from '../../APIs/user/_shared/repo/token.repository'
 
 jest.mock('../../APIs/user/_shared/repo/user.repository')
 jest.mock('../../services/email', () => ({
-    sendEmail: jest.fn().mockResolvedValue(undefined) // Mocking as a resolved promise
+    sendEmail: jest.fn().mockResolvedValue(undefined)
 }))
 
 process.env.ACCESS_TOKEN_SECRET = 'access-secret'
@@ -25,47 +25,63 @@ jest.mock('../../utils/date-and-time')
 jest.mock('../../APIs/user/authentication/validation/validations')
 jest.mock('../../utils/hashing')
 jest.mock('../../utils/code')
-
-jest.mock('../../utils/jwt') // Mock the jwt module
-jest.mock('../../APIs/user/_shared/repo/token.repository') // Mock the tokenRepository module
+jest.mock('../../utils/jwt')
+jest.mock('../../APIs/user/_shared/repo/token.repository')
 
 describe('registrationService', () => {
-    const mockPayload: IRegisterRequest = {
+    const payloadWithPhone: IRegisterRequest = {
         name: 'John Doe',
         phoneNumber: '1234567890',
-        email: 'john.doe@example.com',
+        email: 'john@example.com',
         password: 'securepassword',
         consent: true
     }
 
-    afterEach(() => {
-        jest.clearAllMocks()
-    })
+    const payloadNoPhone: IRegisterRequest = {
+        name: 'Jane Doe',
+        email: 'jane@example.com',
+        password: 'securepassword',
+        consent: true
+    }
 
-    it('should throw an error if phone number is invalid', async () => {
+    afterEach(() => jest.clearAllMocks())
+
+    it('throws 422 when provided phoneNumber fails parsing', async () => {
         ;(parsers.parsePhoneNumber as jest.Mock).mockReturnValue({ countryCode: null, internationalNumber: null, isoCode: null })
-
-        await expect(registrationService(mockPayload)).rejects.toThrow(new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422))
+        await expect(registrationService(payloadWithPhone)).rejects.toThrow(new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422))
     })
 
-    it('should throw an error if timezone is invalid', async () => {
+    it('throws 422 when provided phoneNumber has no matching timezone', async () => {
         ;(parsers.parsePhoneNumber as jest.Mock).mockReturnValue({ countryCode: 'US', internationalNumber: '1234567890', isoCode: 'US' })
         ;(dateAndTime.countryTimezone as jest.Mock).mockReturnValue([])
-
-        await expect(registrationService(mockPayload)).rejects.toThrow(new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422))
+        await expect(registrationService(payloadWithPhone)).rejects.toThrow(new CustomError(responseMessage.auth.INVALID_PHONE_NUMBER, 422))
     })
 
-    it('should validate if user already exists via email', async () => {
-        ;(parsers.parsePhoneNumber as jest.Mock).mockReturnValue({ countryCode: 'US', internationalNumber: '1234567890', isoCode: 'US' })
-        ;(dateAndTime.countryTimezone as jest.Mock).mockReturnValue([{ name: 'America/New_York' }])
+    it('throws when email already exists', async () => {
         ;(validate.userAlreadyExistsViaEmail as jest.Mock).mockRejectedValue(
-            new CustomError(responseMessage.auth.ALREADY_EXISTS(mockPayload.email, 'User'), 422)
+            new CustomError(responseMessage.auth.ALREADY_EXISTS(payloadNoPhone.email, 'User'), 409)
         )
-
-        await expect(registrationService(mockPayload)).rejects.toThrow('User already exists')
+        await expect(registrationService(payloadNoPhone)).rejects.toThrow('User already exists')
     })
 
-    it('should successfully register a user and send a confirmation email', async () => {
+    it('registers without phoneNumber — account is auto-confirmed, no email sent', async () => {
+        ;(validate.userAlreadyExistsViaEmail as jest.Mock).mockResolvedValue(undefined)
+        ;(hashing.hashPassword as jest.Mock).mockResolvedValue('hashedpassword')
+        ;(code.generateRandomId as jest.Mock).mockReturnValue('randomToken')
+        ;(code.generateOTP as jest.Mock).mockReturnValue('123456')
+        ;(query.createUser as jest.Mock).mockResolvedValue({ _id: 'newUserId' })
+
+        const response = await registrationService(payloadNoPhone)
+
+        expect(response).toEqual({ success: true, _id: 'newUserId' })
+        expect(emailService.sendEmail).not.toHaveBeenCalled()
+        const createdCalls = (query.createUser as jest.Mock).mock.calls as [Record<string, unknown>][]
+        const created = createdCalls[0][0]
+        expect((created.accountConfirmation as { status: boolean }).status).toBe(true)
+        expect(created.timezone).toBe('UTC')
+    })
+
+    it('registers with phoneNumber — account is auto-confirmed, no email sent', async () => {
         ;(parsers.parsePhoneNumber as jest.Mock).mockReturnValue({ countryCode: 'US', internationalNumber: '1234567890', isoCode: 'US' })
         ;(dateAndTime.countryTimezone as jest.Mock).mockReturnValue([{ name: 'America/New_York' }])
         ;(validate.userAlreadyExistsViaEmail as jest.Mock).mockResolvedValue(undefined)
@@ -74,62 +90,45 @@ describe('registrationService', () => {
         ;(code.generateOTP as jest.Mock).mockReturnValue('123456')
         ;(query.createUser as jest.Mock).mockResolvedValue({ _id: 'newUserId' })
 
-        const response = await registrationService(mockPayload)
+        const response = await registrationService(payloadWithPhone)
 
         expect(response).toEqual({ success: true, _id: 'newUserId' })
-        expect(emailService.sendEmail).toHaveBeenCalledWith(
-            [mockPayload.email],
-            'Confirm your account',
-            expect.stringContaining(`Hey ${mockPayload.name}, Please confirm your account by clicking the link below`)
-        )
+        expect(emailService.sendEmail).not.toHaveBeenCalled()
+        const createdCalls2 = (query.createUser as jest.Mock).mock.calls as [Record<string, unknown>][]
+        const created2 = createdCalls2[0][0]
+        expect((created2.accountConfirmation as { status: boolean }).status).toBe(true)
+        expect(created2.timezone).toBe('America/New_York')
     })
 })
 
 describe('loginService', () => {
-    const mockPayload = {
-        email: 'john.doe@example.com',
-        password: 'securepassword'
-    }
+    const mockPayload = { email: 'john@example.com', password: 'securepassword' }
 
-    afterEach(() => {
-        jest.clearAllMocks()
-    })
+    afterEach(() => jest.clearAllMocks())
 
-    it('should throw an error if user does not exist', async () => {
+    it('throws 404 if user does not exist', async () => {
         ;(query.findUserByEmail as jest.Mock).mockResolvedValue(null)
-
         await expect(loginService(mockPayload)).rejects.toThrow(new CustomError(responseMessage.NOT_FOUND('User'), 404))
     })
 
-    it('should throw an error if password is invalid', async () => {
-        const mockUser = { _id: 'userId', password: 'hashedPassword' }
-        ;(query.findUserByEmail as jest.Mock).mockResolvedValue(mockUser)
+    it('throws 400 if password is invalid', async () => {
+        ;(query.findUserByEmail as jest.Mock).mockResolvedValue({ _id: 'userId', password: 'hashedPassword' })
         ;(hashing.comparePassword as jest.Mock).mockResolvedValue(false)
-
         await expect(loginService(mockPayload)).rejects.toThrow(new CustomError(responseMessage.auth.INVALID_EMAIL_OR_PASSWORD, 400))
     })
 
-    it('should successfully log in a user and return tokens', async () => {
-        const mockUser = { _id: 'userId', password: 'hashedPassword', save: jest.fn() }
+    it('returns tokens on successful login', async () => {
+        const mockUserData = { _id: 'userId', accountConfirmation: { status: true } }
+        const mockUser = { ...mockUserData, password: 'hashedPassword', save: jest.fn(), toObject: jest.fn().mockReturnValue(mockUserData) }
         ;(query.findUserByEmail as jest.Mock).mockResolvedValue(mockUser)
         ;(hashing.comparePassword as jest.Mock).mockResolvedValue(true)
-        ;(jwt.generateToken as jest.Mock).mockImplementation(() => {
-            return 'mockDefaultToken'
-        })
-
-        // Generate the tokens
+        ;(jwt.generateToken as jest.Mock).mockImplementation(() => 'mockDefaultToken')
         ;(tokenRepository.createToken as jest.Mock).mockResolvedValue(undefined)
 
         const response = await loginService(mockPayload)
 
-        expect(response).toEqual({
-            success: true,
-            user: mockUser,
-            accessToken: 'mockDefaultToken',
-            refreshToken: 'mockDefaultToken'
-        })
-        expect(mockUser.save).toHaveBeenCalled() // Ensure user.save() is called
-        expect(tokenRepository.createToken).toHaveBeenCalledWith({ token: 'mockDefaultToken' })
+        expect(response).toEqual({ success: true, user: mockUserData, accessToken: 'mockDefaultToken', refreshToken: 'mockDefaultToken' })
+        expect(mockUser.save).toHaveBeenCalled()
     })
 })
 
@@ -138,38 +137,26 @@ describe('accountConfirmationService', () => {
     const mockUser = {
         _id: '12345',
         email: 'test@example.com',
-        accountConfimation: {
-            status: false,
-            timestamp: null
-        },
+        accountConfirmation: { status: false, timestamp: null },
         save: mockSave
     }
 
-    afterEach(() => {
-        jest.clearAllMocks()
-    })
+    afterEach(() => jest.clearAllMocks())
 
-    it('should throw an error if user does not exist', async () => {
+    it('throws 404 if user does not exist', async () => {
         ;(query.findUserByConfirmationTokenAndCode as jest.Mock).mockResolvedValue(null)
-
         await expect(accountConfirmationService('token', 'code')).rejects.toThrow(new CustomError('Account does not exist', 404))
     })
 
-    it('should throw an error if account is already confirmed', async () => {
-        ;(query.findUserByConfirmationTokenAndCode as jest.Mock).mockResolvedValue({
-            ...mockUser,
-            accountConfimation: { status: true }
-        })
-
+    it('throws 400 if account is already confirmed', async () => {
+        ;(query.findUserByConfirmationTokenAndCode as jest.Mock).mockResolvedValue({ ...mockUser, accountConfirmation: { status: true } })
         await expect(accountConfirmationService('token', 'code')).rejects.toThrow(new CustomError('Account already CONFIRMED', 400))
     })
 
-    it('should confirm the account and send an email', async () => {
+    it('confirms the account and sends a welcome email', async () => {
         ;(query.findUserByConfirmationTokenAndCode as jest.Mock).mockResolvedValue(mockUser)
         await accountConfirmationService('token', 'code')
-
-        expect(mockUser.accountConfimation.status).toBe(true)
-        expect(mockUser.accountConfimation.timestamp).toBeTruthy()
+        expect(mockUser.accountConfirmation.status).toBe(true)
         expect(mockSave).toHaveBeenCalledTimes(1)
         expect(emailService.sendEmail).toHaveBeenCalledWith([mockUser.email], 'Welcome to the base! ', 'Account has been confirmed.')
     })

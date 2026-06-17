@@ -4,7 +4,7 @@ import { ILoginRequest, IRegisterRequest } from '../types/authentication.interfa
 export const registerSchema = joi.object<IRegisterRequest, true>({
     name: joi.string().min(2).max(72).trim().required(),
     email: joi.string().email().required(),
-    phoneNumber: joi.string().min(4).max(20).required(),
+    phoneNumber: joi.string().min(4).max(20).optional(),
     password: joi
         .string()
         .min(8)

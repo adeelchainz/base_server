@@ -1,0 +1,9 @@
+flask
+pytesseract
+pymupdf
+google-genai
+python-dotenv
+Pillow
+numpy
+# PyTorch GPU (only needed if you re-add EasyOCR):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124

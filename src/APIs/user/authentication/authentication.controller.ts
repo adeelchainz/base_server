@@ -45,7 +45,7 @@ export default {
 
             const user = await accountConfirmationService(token, code)
 
-            httpResponse(response, request, 201, responseMessage.auth.USER_REGISTERED, user)
+            httpResponse(response, request, 200, responseMessage.auth.ACCOUNT_CONFIRMED, user)
         } catch (error) {
             if (error instanceof CustomError) {
                 httpError(next, error, request, error.statusCode)
@@ -67,23 +67,24 @@ export default {
             const isLoggedIn = await loginService(payload)
             if (isLoggedIn.success === true) {
                 //sending cookies
-                const DOMAIN = health.getDomain()
+                const isDev = config.ENV === EApplicationEnvironment.DEVELOPMENT
+                const DOMAIN = isDev ? undefined : health.getDomain()
                 response
                     .cookie('accessToken', isLoggedIn.accessToken, {
                         path: '/v1',
-                        domain: DOMAIN,
+                        ...(DOMAIN ? { domain: DOMAIN } : {}),
                         sameSite: 'strict',
                         maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
                         httpOnly: true,
-                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                        secure: !isDev
                     })
                     .cookie('refreshToken', isLoggedIn.refreshToken, {
                         path: '/v1',
-                        domain: DOMAIN,
+                        ...(DOMAIN ? { domain: DOMAIN } : {}),
                         sameSite: 'strict',
                         maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
                         httpOnly: true,
-                        secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                        secure: !isDev
                     })
 
                 httpResponse(response, request, 200, responseMessage.auth.LOGIN_SUCCESSFUL, isLoggedIn)
@@ -106,24 +107,23 @@ export default {
                 await query.deleteToken(refreshToken)
             }
 
-            const DOMAIN = health.getDomain()
+            const isDev = config.ENV === EApplicationEnvironment.DEVELOPMENT
+            const DOMAIN = isDev ? undefined : health.getDomain()
             //Clearing cookies
             response
                 .clearCookie('accessToken', {
                     path: '/v1',
-                    domain: DOMAIN,
+                    ...(DOMAIN ? { domain: DOMAIN } : {}),
                     sameSite: 'strict',
-                    maxAge: 1000 * config.TOKENS.ACCESS.EXPIRY,
                     httpOnly: true,
-                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    secure: !isDev
                 })
                 .clearCookie('refreshToken', {
                     path: '/v1',
-                    domain: DOMAIN,
+                    ...(DOMAIN ? { domain: DOMAIN } : {}),
                     sameSite: 'strict',
-                    maxAge: 1000 * config.TOKENS.REFRESH.EXPIRY,
                     httpOnly: true,
-                    secure: !(config.ENV === EApplicationEnvironment.DEVELOPMENT)
+                    secure: !isDev
                 })
 
             httpResponse(response, request, 200, responseMessage.SUCCESS, null)

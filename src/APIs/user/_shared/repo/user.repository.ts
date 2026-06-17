@@ -10,8 +10,8 @@ export default {
     },
     findUserByConfirmationTokenAndCode: (token: string, code: string) => {
         return userModel.findOne({
-            'accountConfimation.token': token,
-            'accountConfimation.code': code
+            'accountConfirmation.token': token,
+            'accountConfirmation.code': code
         })
     },
     createUser: (payload: IUser) => {
